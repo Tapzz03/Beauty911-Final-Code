@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FFFFFF</color>
+    <color name="primary">#FFC0CB</color> <!-- Light Pink -->
+    <color name="accent">#DDA0DD</color> <!-- Light Purple -->
+    <color name="textPrimary">#000000</color>
+    <color name="textSecondary">#FFFFFF</color>
+    <color name="black" >#000000</color>
+    <color name="purple_500" >#F1CFF8</color>
+</resources>

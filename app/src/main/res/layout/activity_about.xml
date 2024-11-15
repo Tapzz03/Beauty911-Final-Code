@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFF6F2"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At our beauty salon, we pride ourselves on offering a comprehensive range of services designed to enhance your appearance and elevate your well-being. From hair and nail treatments to facials and IV drips, our skilled and dedicated team is committed to delivering exceptional care in a tranquil and inviting atmosphere. Your satisfaction is our priority, and we strive to ensure that each visit leaves you feeling rejuvenated and confident."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:backgroundTint="#FFE3E0"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView android:id="@+id/about2_image"
+            android:layout_width="380dp"
+            android:layout_height="330dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/about_image__2_"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our goal is to enhance your natural beauty and elevate your confidence through a diverse range of exceptional beauty treatments. We believe that every individual deserves to feel their best, and we are dedicated to providing personalized services that cater to your unique needs and preferences. By combining expert knowledge, high-quality products, and a warm, inviting atmosphere, we aim to create an uplifting experience that not only transforms your appearance but also nourishes your spirit. At our salon, your beauty journey is our priority, and we are committed to helping you shine inside and out."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FFE3E0"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView android:id="@+id/about_image"
+            android:layout_width="380dp"
+            android:layout_height="330dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/about_image__1_"
+            android:scaleType="centerCrop"
+            />
+
+        <!-- Added Text Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Mission:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deliver safe and trendy beauty services suitable for children and teenagers, including braids, haircuts, hairstyling, facials, and express manicures and pedicures. Facilitate convenient scheduling options for school staff and students, ensuring flexibility in service delivery. Promote positive body image and self-esteem through our specialized services and interactive workshops. Establish partnerships with educational institutions and community organizations to advocate beauty, wellness, and self-care. Ensure our services remain affordable and accessible to diverse communities across Gauteng. We aim to cultivate a supportive and inclusive environment where young individuals can freely express themselves, build confidence, and have enjoyable experiences."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView android:id="@+id/about3_image"
+            android:layout_width="380dp"
+            android:layout_height="330dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/about_image__3_"
+            android:scaleType="centerCrop"
+            />
+
+        <!-- Contact Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us:"
+            android:textSize="18sp"
+            android:backgroundTint="#FFE3E0"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +27 74 357 4899\nEmail: admin@beauty911.co.za\nAddress: 425 Granite Crescent, Centurion"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FFE3E0"
+            android:textColor="#333333"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

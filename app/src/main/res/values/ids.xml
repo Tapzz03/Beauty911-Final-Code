@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logoBanner" type="id" />
+    <item name="featuredServicesTitle" type="id" />
+    <item name="featuredServicesScroll" type="id" />
+    <item name="bottomNavigation" type="id" />
+    <item name="serviceLayout2" type="id" />
+    <item name="cartTitle" type="id" />
+    <item name="cartItemsTextView" type="id" />
+    <item name="totalCostTextView" type="id" />
+    <item name="checkoutButton" type="id" />
+    <item name="approveButton" type="id" />
+    <item name="disapproveButton" type="id" />
+    <item name="dateTimeInput" type="id" />
+</resources>
