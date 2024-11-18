@@ -84,7 +84,9 @@ public class RegisterActivity extends AppCompatActivity {
                 });
     }
 
-    private void saveUserToFirestore(String userId, String name, String surname, String username, String email, String phone, String address) {
+    private void saveUserToFirestore
+            (String userId, String name, String surname, String username, String email,
+             String phone, String address) {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         User user = new User(name, surname, username, email, phone, address);
 
@@ -98,7 +100,9 @@ public class RegisterActivity extends AppCompatActivity {
                     finish(); // Close RegisterActivity
                 })
                 .addOnFailureListener(e -> {
-                    Toast.makeText(RegisterActivity.this, "Failed to save user data: " + e.getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText
+                            (RegisterActivity.this, "Failed to save user data: " + e.getMessage(),
+                            Toast.LENGTH_SHORT).show();
                 });
     }
 }

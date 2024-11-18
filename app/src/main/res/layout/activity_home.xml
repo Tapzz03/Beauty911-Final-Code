@@ -10,21 +10,29 @@
         android:background="#FFF6F2"
         android:padding="16dp">
         <!-- Search bar -->
-        <EditText
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="What are you looking for?"
-            android:padding="12dp"
-            android:textColor="#000000"
             android:backgroundTint="#FFE3E0"
-            android:drawableEnd="@android:drawable/ic_search_category_default"
-            android:drawablePadding="8dp"
-            android:textStyle="bold"
+            android:textColor="#000000"
             android:background="@drawable/border"
-            android:layout_marginBottom="0dp"
-            android:layout_marginTop="0dp"
-            android:inputType="text" />
+            android:queryHint="What are you looking for?"
+            android:iconifiedByDefault="true" />
+
+
+        <LinearLayout
+            android:id="@+id/searchResultsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+
+
         <!-- GridLayout for category buttons -->
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
