@@ -18,6 +18,8 @@
             android:text="Promotions"
             android:textSize="24sp"
             android:textColor="#000000"
+            android:background="@drawable/border"
+            android:backgroundTint="#FFE3E0"
             android:textStyle="bold"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp" />
@@ -351,7 +353,6 @@
                     android:paddingBottom="4dp" />
             </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 </ScrollView>
 

@@ -60,13 +60,30 @@ public class RegisterActivity extends AppCompatActivity {
         String address = addressEditText.getText().toString().trim();
 
         // Validate input fields
-        if (name.isEmpty() || surname.isEmpty() || email.isEmpty() || username.isEmpty() || password.isEmpty() || confirmPassword.isEmpty() || phone.isEmpty() || address.isEmpty()) {
+        if (name.isEmpty() || surname.isEmpty() || email.isEmpty() || username.isEmpty() ||
+                password.isEmpty() || confirmPassword.isEmpty() || phone.isEmpty() || address.isEmpty()) {
             Toast.makeText(RegisterActivity.this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
             return;
         }
 
+        // Validate password
         if (!password.equals(confirmPassword)) {
             Toast.makeText(RegisterActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (password.length() < 8) {
+            Toast.makeText(RegisterActivity.this, "Password must be at least 8 characters long", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (!password.matches(".*[A-Z].*")) {
+            Toast.makeText(RegisterActivity.this, "Password must contain at least one uppercase letter", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        if (!password.matches(".*[!@#$%^&*(),.?\":{}|<>].*")) {
+            Toast.makeText(RegisterActivity.this, "Password must contain at least one special character", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -83,6 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
                     }
                 });
     }
+
 
     private void saveUserToFirestore
             (String userId, String name, String surname, String username, String email,

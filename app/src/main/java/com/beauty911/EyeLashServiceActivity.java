@@ -110,6 +110,7 @@ public class EyeLashServiceActivity extends AppCompatActivity {
                 addToCart("Lash Removal", 150.0);
             }
         });
+
     }
 
     // Method to add the service to the cart
@@ -133,4 +134,6 @@ public class EyeLashServiceActivity extends AppCompatActivity {
         Intent intent = new Intent(EyeLashServiceActivity.this, CartActivity.class);
         startActivity(intent);
     }
+
 }
+

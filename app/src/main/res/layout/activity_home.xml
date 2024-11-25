@@ -29,6 +29,17 @@
             android:orientation="vertical">
         </LinearLayout>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Services"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
 
 
         <!-- GridLayout for category buttons -->
@@ -45,6 +56,7 @@
                 android:columnCount="3"
                 android:padding="5dp"
                 android:rowCount="2">
+
                 <!-- Hair Button -->
                 <LinearLayout
                     android:id="@+id/hairButton"
@@ -53,7 +65,8 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="8dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#FFE3E0"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -84,7 +97,8 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="8dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#FFE3E0"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -115,7 +129,8 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="8dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#FFE3E0"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -146,7 +161,8 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="8dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#FFE3E0"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -177,7 +193,8 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="8dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#FFE3E0"
                     android:gravity="center"
                     android:orientation="vertical"
@@ -208,7 +225,8 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_margin="8dp"
-                    android:layout_marginTop="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
                     android:background="#FFE3E0"
                     android:gravity="center"
                     android:orientation="vertical"
